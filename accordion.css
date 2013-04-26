@@ -40,7 +40,6 @@
 	width:auto; /* just a testing value, change at will */
 }
 .boxkat-accordion-atom {
-    position:relative;
     color:#fff;
     padding:.75em;
     cursor:pointer;
@@ -83,12 +82,14 @@ input[type="checkbox"].boxkat-accordion-content-toggle:checked ~ .boxkat-accordi
     width:90%;
     margin-left:10%;
     background: #fdd8bc;
+	overflow-y:hidden;
     max-height: 0;
-	-webkit-transition: max-height 0.3 ease-in;
-		-moz-transition: max-height 0.3 ease-in;
-			-ms-transition: max-height 0.3 ease-in;
-			   -o-transition: max-height 0.3 ease-in;
-				 transition: max-height 0.3 ease-in;
+	-webkit-transition: max-height 0.3s ease-in;
+		-moz-transition: max-height 0.3s ease-in;
+			-ms-transition: max-height 0.3s ease-in;
+			   -o-transition: max-height 0.3s ease-in;
+				 transition: max-height 0.3s ease-in;
+				 
 }
 .boxkat-accordion-content > .boxkat-accordion-atom:hover {
     background: #fba15c;
