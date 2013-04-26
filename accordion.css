@@ -83,10 +83,10 @@ input[type="checkbox"].boxkat-accordion-content-toggle:checked ~ .boxkat-accordi
     display:none;
     width:90%;
     margin-left:10%;
-    background: #ddb89c;
+    background: #fdd8bc;
 }
 .boxkat-accordion-content > .boxkat-accordion-atom:hover {
-    background: #f68026;
+    background: #fbb986;
 }
 
 .boxkat-accordion-content > .boxkat-accordion-atom > .boxkat-accordion-heading {
