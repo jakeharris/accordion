@@ -55,11 +55,11 @@ input[type="checkbox"].boxkat-accordion-content-toggle:checked + .boxkat-accordi
     background: #c1d1e7;
     color: #fff;
 	/*border: 1px solid #496e9c;*/
-	-webkit-box-shadow: 0px 0px 10px rgba(73, 110, 156, .99);
-		-moz-box-shadow: 0px 0px 10px rgba(73, 110, 156, .99);
-			-ms-box-shadow: 0px 0px 10px rgba(73, 110, 156, .99);
-				-o-box-shadow: 0px 0px 10px rgba(73, 110, 156, .99);
-					box-shadow: 0px 0px 10px rgba(73, 110, 156, .99);
+	-webkit-box-shadow: 0px 0px 10px rgba(73, 110, 156, 1);
+		-moz-box-shadow: 0px 0px 10px rgba(73, 110, 156, 1);
+			-ms-box-shadow: 0px 0px 10px rgba(73, 110, 156, 1);
+				-o-box-shadow: 0px 0px 10px rgba(73, 110, 156, 1);
+					box-shadow: 0px 0px 10px rgba(73, 110, 156, 1);
     cursor:pointer;
     position:relative;
 }
@@ -83,12 +83,7 @@ input[type="checkbox"].boxkat-accordion-content-toggle:checked ~ .boxkat-accordi
     display:none;
     width:90%;
     margin-left:10%;
-    background: #fdd8bc;
-	-webkit-box-shadow: 0px 0px 10px rgba(246, 128, 38, 1);
-		-moz-box-shadow: 0px 0px 10px rgba(246, 128, 38, 1);
-			-ms-box-shadow: 0px 0px 10px rgba(246, 128, 38, 1);
-				-o-box-shadow: 0px 0px 10px rgba(246, 128, 38, 1);
-					box-shadow: 0px 0px 10px rgba(246, 128, 38, 1);
+    background: #ddb89c;
 }
 .boxkat-accordion-content > .boxkat-accordion-atom:hover {
     background: #f68026;
