@@ -91,7 +91,7 @@ input[type="checkbox"].boxkat-accordion-content-toggle:checked ~ .boxkat-accordi
 }
 
 .boxkat-accordion-content > .boxkat-accordion-atom > .boxkat-accordion-heading {
-    color:#fba15c;
+    color:#e97;
 }
 .boxkat-accordion-content > .boxkat-accordion-atom:hover > .boxkat-accordion-heading {
 	color:white;
