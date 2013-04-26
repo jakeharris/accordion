@@ -38,6 +38,7 @@
 .boxkat-accordion-molecule
 /* A molecule is a unit comprised of a header (what's displayed when the accordion is collapsed) and its content elements (the things that get displayed when the accordion expands). */
  {
+	width:300px; /* just a testing value, change at will */
 }
 .boxkat-accordion-atom {
     position:relative;
@@ -47,11 +48,10 @@
     display:block;
 }
 .boxkat-accordion-atom.boxkat-accordion-header {
-    background: #c1d1e7;/*#496e9c;*/
+    background: #c1d1e7;
     color: #fff;
     cursor:pointer;
     position:relative;
-    width:100%;
 }
 .boxkat-accordion-atom.boxkat-accordion-header:hover,
 input[type="checkbox"].boxkat-accordion-content-toggle:checked + .boxkat-accordion-header{
@@ -79,7 +79,7 @@ input[type="checkbox"].boxkat-accordion-content-toggle:checked ~ .boxkat-accordi
     width:100%;
     position:relative;
     left:10%;
-    background: #fdd8bc;/*#f68026;*/
+    background: #fdd8bc;
 }
 .boxkat-accordion-content > .boxkat-accordion-atom:hover {
     background: #f68026;
