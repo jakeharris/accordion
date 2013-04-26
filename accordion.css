@@ -77,13 +77,18 @@ input.boxkat-accordion-content-toggle {
     color: #183a65;
 }
 input[type="checkbox"].boxkat-accordion-content-toggle:checked ~ .boxkat-accordion-content {
-    display:block;
+    height: auto;
 }
 .boxkat-accordion-content {
-    display:none;
     width:90%;
     margin-left:10%;
     background: #fdd8bc;
+    height: 0;
+	-webkit-transition: height 0.3 ease-in;
+		-moz-transition: height 0.3 ease-in;
+			-ms-transition: height 0.3 ease-in;
+			   -o-transition: height 0.3 ease-in;
+				 transition: height 0.3 ease-in;
 }
 .boxkat-accordion-content > .boxkat-accordion-atom:hover {
     background: #fba15c;
