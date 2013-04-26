@@ -84,7 +84,6 @@ input[type="checkbox"].boxkat-accordion-content-toggle:checked ~ .boxkat-accordi
     width:90%;
     margin-left:10%;
     background: #fdd8bc;
-	color:#fba15c;
 }
 .boxkat-accordion-content > .boxkat-accordion-atom:hover {
     background: #fba15c;
@@ -92,7 +91,10 @@ input[type="checkbox"].boxkat-accordion-content-toggle:checked ~ .boxkat-accordi
 }
 
 .boxkat-accordion-content > .boxkat-accordion-atom > .boxkat-accordion-heading {
-    color:#fff;
+    color:#fba15c;
+}
+.boxkat-accordion-content > .boxkat-accordion-atom:hover > .boxkat-accordion-heading {
+	color:white;
 }
 .boxkat-accordion-content > .boxkat-accordion-atom > .boxkat-accordion-subtitle {
     color:#a04c0c
