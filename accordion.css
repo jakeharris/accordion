@@ -51,7 +51,7 @@
 	overflow:hidden;
 }
 .boxkat-accordion-atom.boxkat-accordion-header:hover,
-input[type="checkbox"].boxkat-accordion-content-toggle:checked + .boxkat-accordion-header{
+input[type="checkbox"].boxkat-accordion-content-toggle:checked + label > .boxkat-accordion-header{
 	background: #496e9c;
 }
 .boxkat-accordion-atom.boxkat-accordion-header {
