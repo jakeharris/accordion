@@ -5,20 +5,23 @@
 	A purely-css accordion that allows for multiple content entries under each header (in case you need that for something, I don't know! Don't ask me, you're the web developer).
 	See boxkat-accordion-chk for accordion-checkgroup hybrids (for forms).
 	
+	NOTE: currently doesn't work with IE8. If you need that functionality, go grab IE9.js and put it in a conditional comment on your page.z
+	
 	USE:
 	<div class="boxkat-accordion">
 		<div class="boxkat-accordion-molecule">
 			<input type="checkbox" class="boxkat-accordion-content-toggle" id="content-toggler-X" />
-			<div class="boxkat-accordion-atom boxkat-accordion-header">
-				<label for="content-toggler-X" class="boxkat-accordion-chk">
+			<label for="content-toggler-X" class="boxkat-accordion-chk">
+				<div class="boxkat-accordion-atom boxkat-accordion-header">
 					<span class="boxkat-accordion-heading">YOUR HEADER HERE</span>
-					<span class="boxkat-accordion-subtitle">YOUR ALT TEXT HERE</span>
-				</label>
-			</div>
+					<span class="boxkat-accordion-subtitle">your alt text here</span>
+					<i class="icon-angle-down icon-2x boxkat-accordion-arrow"></i>
+				</div>
+			</label>
 			<div class="boxkat-accordion-content">
 				<div class="boxkat-accordion-atom">
 					<span class="boxkat-accordion-heading">YOUR HEADER HERE</span>
-					<span class="boxkat-accordion-subtitle">YOUR ALT TEXT HERE</span>
+					<span class="boxkat-accordion-subtitle">your alt text here</span>
 				</div>
 				<div class="boxkat-accordion-atom">
 					<span class="boxkat-accordion-heading">YOUR HEADER HERE</span>
@@ -32,10 +35,7 @@
     width:auto;
     display:inline-block;
     color:#fff;
-    font-family: MS Shell Dlg, Calibri, Arial;
-}
-.boxkat-accordion-subtitle{
-	font-family: Museo, Calibri, Arial;
+    font-family: Museo, Calibri, Arial;
 }
 [class*="icon-"].boxkat-accordion-arrow {
 	font-size: 1.4em;
@@ -45,9 +45,10 @@
 .boxkat-accordion-molecule
 /* A molecule is a unit comprised of a header (what's displayed when the accordion is collapsed) and its content elements (the things that get displayed when the accordion expands). */
  {
-	width:auto; /* just a testing value, change at will */
+	width:auto; 
 }
 .boxkat-accordion-atom {
+/* An atom is a unit comprised of all the text related to one concept on the page.  Atoms can be headers or content elements. */
     color:#fff;
     padding:.75em;
     cursor:pointer;
