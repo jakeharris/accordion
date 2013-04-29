@@ -61,7 +61,7 @@ input[type="checkbox"].boxkat-accordion-content-toggle:checked + label > .boxkat
 					box-shadow: 0px 0px 10px rgba(73, 110, 156, 1);
 }
 .boxkat-accordion-atom.boxkat-accordion-header {
-    background: #c1d1e7;
+    background: #7b9fce;
     color: #fff;
 	/*border: 1px solid #496e9c;*/
     cursor:pointer;
@@ -102,7 +102,7 @@ input[type="checkbox"].boxkat-accordion-content-toggle:checked ~ .boxkat-accordi
 }
 
 .boxkat-accordion-content > .boxkat-accordion-atom > .boxkat-accordion-heading {
-    color:#e97;
+    color:#b97644;
 }
 .boxkat-accordion-content > .boxkat-accordion-atom:hover > .boxkat-accordion-heading {
 	color:white;
