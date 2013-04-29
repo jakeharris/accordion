@@ -34,6 +34,9 @@
     color:#fff;
     font-family: MS Shell Dlg, Calibri, Arial;
 }
+.boxkat-accordion-subtitle{
+	font-family: Museo, Calibri, Arial;
+}
 [class*="icon-"].boxkat-accordion-arrow {
 	font-size: 1.4em;
 	margin-top: -3px;
