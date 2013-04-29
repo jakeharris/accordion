@@ -34,7 +34,7 @@
     color:#fff;
     font-family: MS Shell Dlg, Calibri, Arial;
 }
-.boxkat-accordion-arrow {
+[class*="icon-"].boxkat-accordion-arrow {
 	font-size: 1.5em;
 	margin-top: -6px;
 }
