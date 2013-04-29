@@ -80,7 +80,7 @@ input.boxkat-accordion-content-toggle {
     color: #183a65;
 }
 input[type="checkbox"].boxkat-accordion-content-toggle:checked ~ .boxkat-accordion-content {
-    max-height: 10000px;
+    max-height: 1000px;
 }
 .boxkat-accordion-content {
     width:90%;
