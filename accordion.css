@@ -34,6 +34,10 @@
     color:#fff;
     font-family: MS Shell Dlg, Calibri, Arial;
 }
+.boxkat-accordion-arrow {
+	font-size: 1.5em;
+	margin-top: -6px;
+}
 .boxkat-accordion-molecule
 /* A molecule is a unit comprised of a header (what's displayed when the accordion is collapsed) and its content elements (the things that get displayed when the accordion expands). */
  {
@@ -76,7 +80,7 @@ input.boxkat-accordion-content-toggle {
     color: #183a65;
 }
 input[type="checkbox"].boxkat-accordion-content-toggle:checked ~ .boxkat-accordion-content {
-    max-height: 1000px;
+    max-height: 500px;
 }
 .boxkat-accordion-content {
     width:90%;
