@@ -4,7 +4,7 @@ accordion
 Part of the boxkat theme.
 CSS3-only accordion, nude of any js.
 
-How-to
+how-to
 ======
 
 Just drop this on your page and include accordion.css in your project!
