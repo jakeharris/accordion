@@ -11,7 +11,7 @@
 	<div class="boxkat-accordion">
 		<div class="boxkat-accordion-molecule">
 			<input type="checkbox" class="boxkat-accordion-content-toggle" id="content-toggler-X" />
-			<label for="content-toggler-X" class="boxkat-accordion-chk">
+			<label for="content-toggler-X" class="boxkat-accordion-lbl">
 				<span class="boxkat-accordion-atom boxkat-accordion-header">
 					<span class="boxkat-accordion-heading">YOUR HEADER HERE</span>
 					<span class="boxkat-accordion-subtitle">your alt text here</span>
@@ -77,7 +77,7 @@ input[type="checkbox"].boxkat-accordion-content-toggle:checked + label > .boxkat
 input.boxkat-accordion-content-toggle {
     display:none;
 }
-.boxkat-accordion-atom.boxkat-accordion-header > label.boxkat-accordion-chk {
+.boxkat-accordion-atom.boxkat-accordion-header > label.boxkat-accordion-lbl {
     cursor:pointer;
     color: #fff;
 }
